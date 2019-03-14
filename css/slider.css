@@ -1,0 +1,65 @@
+#gallery h1{
+    text-align: center;
+    color: black;
+    text-shadow: 0px 0px 300px #000;
+    font-size:3rem;
+    font-weight: 600;
+}
+.slider{
+    max-width: 100%;
+    height: 800px;
+    background: url(/practice2.0/img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 100px auto;
+    animation: slide 30s infinite;
+  
+    margin:auto;
+    padding:0;
+}
+
+@media (max-width: 560px) {
+    .slider{
+        max-height: 400px;
+        max-width: 100%;
+
+    }
+
+}
+@keyframes slide{
+    15%{
+        background: url(/practice2.0/img/10.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    30%{
+        background: url(/practice2.0/img/11.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    45%{
+        background: url(/practice2.0/img/13.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    60%{
+        background: url(/practice2.0/img/14.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    75%{
+        background: url(/practice2.0/img/7.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    90%{
+        background: url(/practice2.0/img/9.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background: url(/practice2.0/img/6.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
