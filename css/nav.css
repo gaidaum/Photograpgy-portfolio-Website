@@ -155,12 +155,29 @@ nav {
 
   @media(max-width: 1024px) {
     .nav-links{
-      width: 60%
+      width: 100%
     }
+
+    @media(max-width: 900px) {
+      .nav-links{
+        width: 104%
+      }
     
   }
-  @media(max-width: 786px) {
-
+  @media(max-width: 770px) {
+    .nav-links{
+      width: 110%
+    }
+  @media(max-width: 836px) {
+    .nav-links{
+      width: 118%
+    }
+    nav ul {
+      
+      padding-right: 100px;
+      display:flex;
+      left: 30px;
+    }
     .logo {
           position: fixed;
           top: 0;
@@ -171,8 +188,14 @@ nav {
     nav ul {
           max-height: 0px;
           background: #000;
-    }
 
+    }
+    nav.black {
+      
+      padding: 10px 20px;
+      overflow: hidden;
+      
+    }
     nav.black ul {
           background: #000;
     }
@@ -181,24 +204,19 @@ nav {
           max-height: 34em;
     }
 
-    nav ul li {
-          box-sizing: border-box;
-          width: 100%;
-          padding: 14px;
-          text-align: center;
-    }
+   
 
     .menu-icon {
           display: block;
     }
 
 }
-@media(max-width: 400px) {
+@media(max-width: 760px) {
 
   body{
     overflow-x: hidden;
   }
-  nav.black ul{
+  .nav-links {
     position: absolute;
     right: 0px;
     height: 40vh;
@@ -210,8 +228,9 @@ nav {
     width: 20%;
     transform: translateX(100%)
   }
+
   .nav-links {
-    opacity: 0;
+    opacity: 1;
   }
   .burger{
     display:block;

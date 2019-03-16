@@ -66,7 +66,7 @@ body {
   }
   
   .container {
-    max-width: 960px;
+    max-width: 1460px;
     margin: auto;
     overflow: hidden;
     padding: 4rem 1rem;
@@ -178,5 +178,60 @@ body {
   .s-m a:hover{
     transform: scale(1.2);
   }
+  *{
+    margin:0;
+    padding: 0;
+  }
+  .about-section{
+    overflow: hidden;
+    text-align: center;
+    background: #333;
+    padding: 60px;
+  }
+  .about-section h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;
+  }
+  .border{
+    display: block;
+    margin:auto;
+    width: 160px;
+    height: 3px;
+    background: #3498db;
+    margin-bottom: 40px;
+  }
+
+  .ps {
+    height: 70%;
+    width: 70%;
+    float: left;
+  }
+ @media (max-height: 990px) {
+  .about-right {
+    float: left;
+    font-size: 2rem;
+    line-height: 24px;
+    color: #ffffff;
+ }
+ }
+  .ps a{
+    
+    width: 360px;
+    height: 460px;
+    overflow: hidden;
+    float: left;
+    margin: 0 30px;
+  }
   
-  
+
+ .about-right {
+    
+    font-size: 2rem;
+    line-height: 24px;
+    color: #ffffff;
+ }
+ #gallery h1{
+   padding-top: 20px;
+ }
